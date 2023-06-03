@@ -5,6 +5,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <link rel="icon" href="/assets/images/icon.ico" />
+                    <title>Geng Rui</title>
                     {/* 在这里可以添加其他的全局头元素 */}
                 </Head>
                 <body>
