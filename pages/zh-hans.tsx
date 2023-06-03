@@ -31,32 +31,32 @@ import ProfilePicture from '../public/assets/images/my.webp'
 import Background from '../public/assets/images/waves-haikei.svg'
 import FavIcon from '../public/assets/images/icon.ico'
 
-const IndexPage: NextPage = () => {    
+const IndexPage: NextPage = () => {
     return (
         <div className="container">
-            
-	    <FooterParagraph icon={IoLanguage}>
-                    <a className="footer-link" href="/">
-                        English
-                    </a>
-                    <span className="footer-external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                    &nbsp;&nbsp;
-                    <a className="footer-link" href="ja-jp">
-                        日本語
-                    </a>
-                    <span className="footer-external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                </FooterParagraph>
+
+            <FooterParagraph icon={IoLanguage}>
+                <a className="footer-link" href="/">
+                    English
+                </a>
+                <span className="footer-external-link-icon">
+                    <FaExternalLinkAlt />
+                </span>
+                &nbsp;&nbsp;
+                <a className="footer-link" href="ja-jp">
+                    日本語
+                </a>
+                <span className="footer-external-link-icon">
+                    <FaExternalLinkAlt />
+                </span>
+            </FooterParagraph>
 
             <Header
                 profilePicture={ProfilePicture}
                 profileName={
                     <>
                         {/* amphi[ne]ko */}
-                        
+
                         <ProfileNameStandout
                             backgroundColor="hsla(0, 100%, 82%, 0.25)"
                             href="https://en.wikipedia.org/wiki/Germanium"
@@ -76,7 +76,7 @@ const IndexPage: NextPage = () => {
                         <MonolineGroup>
                             <Monoline comment="Chinese">耿瑞</Monoline>
                             <Monoline comment="Kana">コウ ズイ</Monoline>
-			    <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
+                            <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
@@ -90,8 +90,8 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>belonging</ProfileAddonGroupTitle>
                         <MonolineGroup>
-				<Monoline comment="Murata Lab">大阪大学大学院 信息科学研究科 信息网络学专攻 先进网络架构研究室</Monoline>
-				
+                            <Monoline comment="Murata Lab">大阪大学大学院 信息科学研究科 信息网络学专攻 先进网络架构研究室</Monoline>
+
                         </MonolineGroup>
                     </ProfileAddonGroup>
                 </ProfileAddons>
@@ -109,7 +109,7 @@ const IndexPage: NextPage = () => {
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
 
-		<AccountShowcase.Category title="email">
+                <AccountShowcase.Category title="email">
                     <AccountShowcase.Account
                         href="#"
                         icon={<FaMailBulk />}
@@ -119,7 +119,7 @@ const IndexPage: NextPage = () => {
                         r-geng(at)ist.osaka-u.ac.jp
                     </AccountShowcase.Account>
 
-		    <AccountShowcase.Account
+                    <AccountShowcase.Account
                         href="#"
                         icon={<FaMailBulk />}
                         iconBackground="#000000"
@@ -163,53 +163,56 @@ const IndexPage: NextPage = () => {
 
             <Row>
                 <DescriptionX>
-		    <ProfileAddonGroupX> 
-			<ProfileAddonGroupTitle>略历</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>略历</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
+                    <Paragraph>
+                        1998.05: 出生
+                    </Paragraph>
                     <Paragraph>
                         2016.06: 广西师范大学附属外国语学校 毕业	// 高中
                     </Paragraph>
                     <Paragraph>
                         2016.09: 北京信息科技大学计算机学院 入学	// 本科
                     </Paragraph>
-		    <Paragraph>
+                    <Paragraph>
                         2020.06: 北京信息科技大学计算机学院 毕业	// 工学学士学位
                     </Paragraph>
-		    <Paragraph>
+                    <Paragraph>
                         2023.04: 大阪大学大学院信息科学研究科 入学       // 硕士研究生
                     </Paragraph>
-               </DescriptionX> 
+                </DescriptionX>
 
-		<DescriptionX>
-		    <ProfileAddonGroupX>
-			<ProfileAddonGroupTitle>研究内容</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
-		    <Paragraph>
-			B5G实时真实世界识别
-		    </Paragraph>
-		</DescriptionX>
-
-		<DescriptionX>
-		    <ProfileAddonGroupX>
-                	<ProfileAddonGroupTitle>资格</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
+                <DescriptionX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>研究内容</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
                     <Paragraph>
-			2019: 全国计算机技术与软件专业技术资格考试 - 软件设计师	// == 应用信息技术者（日本）
-		    </Paragraph>
-		    <Paragraph>
-			2019: 日本语能力测试 - N2
-		    </Paragraph>
-		    <Paragraph>
+                        B5G实时真实世界识别
+                    </Paragraph>
+                </DescriptionX>
+
+                <DescriptionX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>资格</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
+                    <Paragraph>
+                        2019: 全国计算机技术与软件专业技术资格考试 - 软件设计师	// == 应用信息技术者（日本）
+                    </Paragraph>
+                    <Paragraph>
+                        2019: 日本语能力测试 - N2
+                    </Paragraph>
+                    <Paragraph>
                         2021: 托业 L&R - 935 / 990
                     </Paragraph>
                 </DescriptionX>
-		
 
-			
+
+
             </Row>
 
             <Footer>
-		
+
                 <FooterParagraph icon={IoLink}>
                     <a className="footer-link" href="https://www.anarg.jp/">
                         村田研究室

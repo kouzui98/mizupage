@@ -49,28 +49,28 @@ const IndexPage: NextPage = () => {
     return (
         <div className="container">
 
-	    <FooterParagraph icon={IoLanguage}>
-                    <a className="footer-link" href="zh-hans">
-                        中文
-                    </a>
-                    <span className="footer-external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                    &nbsp;&nbsp;
-                    <a className="footer-link" href="ja-jp">
-                        日本語
-                    </a>
-                    <span className="footer-external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                </FooterParagraph>
+            <FooterParagraph icon={IoLanguage}>
+                <a className="footer-link" href="zh-hans">
+                    中文
+                </a>
+                <span className="footer-external-link-icon">
+                    <FaExternalLinkAlt />
+                </span>
+                &nbsp;&nbsp;
+                <a className="footer-link" href="ja-jp">
+                    日本語
+                </a>
+                <span className="footer-external-link-icon">
+                    <FaExternalLinkAlt />
+                </span>
+            </FooterParagraph>
 
             <Header
                 profilePicture={ProfilePicture}
                 profileName={
                     <>
                         {/* amphi[ne]ko */}
-                        
+
                         <ProfileNameStandout
                             backgroundColor="hsla(0, 100%, 82%, 0.25)"
                             href="https://en.wikipedia.org/wiki/Germanium"
@@ -90,7 +90,7 @@ const IndexPage: NextPage = () => {
                         <MonolineGroup>
                             <Monoline comment="Chinese">耿瑞</Monoline>
                             <Monoline comment="Kana">コウ ズイ</Monoline>
-			    <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
+                            <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
@@ -104,10 +104,10 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>belonging</ProfileAddonGroupTitle>
                         <MonolineGroup>
-				<Monoline comment="Murata Lab">Advanced Network Architecture Research Laboratory,</Monoline>
-				<Monoline comment="">Department of Information Networking,</Monoline>
-				<Monoline comment="">Graduate School of Information Science and Technology,</Monoline>
-				<Monoline comment="">Osaka University</Monoline>
+                            <Monoline comment="Murata Lab">Advanced Network Architecture Research Laboratory,</Monoline>
+                            <Monoline comment="">Department of Information Networking,</Monoline>
+                            <Monoline comment="">Graduate School of Information Science and Technology,</Monoline>
+                            <Monoline comment="">Osaka University</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                 </ProfileAddons>
@@ -125,7 +125,7 @@ const IndexPage: NextPage = () => {
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
 
-		<AccountShowcase.Category title="email">
+                <AccountShowcase.Category title="email">
                     <AccountShowcase.Account
                         href="#"
                         icon={<FaMailBulk />}
@@ -135,7 +135,7 @@ const IndexPage: NextPage = () => {
                         r-geng(at)ist.osaka-u.ac.jp
                     </AccountShowcase.Account>
 
-		    <AccountShowcase.Account
+                    <AccountShowcase.Account
                         href="#"
                         icon={<FaMailBulk />}
                         iconBackground="#000000"
@@ -179,69 +179,72 @@ const IndexPage: NextPage = () => {
 
             <Row>
                 <DescriptionX>
-		    <ProfileAddonGroupX> 
-			<ProfileAddonGroupTitle>biography</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>biography</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
+                    <Paragraph>
+                        1998.05: Born
+                    </Paragraph>
                     <Paragraph>
                         2016.06: Graduated from the <b>Foreign Language School Attached to Guangxi Normal University</b>	// high school
                     </Paragraph>
                     <Paragraph>
                         2016.09: Enrolled in Computer School, <b>Beijing Information Science and Technology University</b>	// undergraduate
                     </Paragraph>
-		    <Paragraph>
+                    <Paragraph>
                         2020.06: Graduated from Computer School, <b>Beijing Information Science and Technology University</b>	// B.Eng.
                     </Paragraph>
-		    <Paragraph>
+                    <Paragraph>
                         2023.04: Enrolled in Graduate School of Information Science and Technology, <b>Osaka University</b>       // postgraduate
                     </Paragraph>
-               </DescriptionX> 
+                </DescriptionX>
 
-		<DescriptionX>
-		    <ProfileAddonGroupX>
-			<ProfileAddonGroupTitle>research-topic</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
-		    <Paragraph>
-			Real-time Real-world Recognition by B5G
-		    </Paragraph>
-		</DescriptionX>
-
-		<DescriptionX>
-		    <ProfileAddonGroupX>
-                	<ProfileAddonGroupTitle>certification</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
+                <DescriptionX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>research-topic</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
                     <Paragraph>
-			2019: <b>Qualification of Computer and Software Professional</b> (China) - Software Designer	// == Applied Information Technology Engineer (Japan)
-		    </Paragraph>
-		    <Paragraph>
-			2019: <b>JLPT</b> - N2
-		    </Paragraph>
-		    <Paragraph>
+                        Real-time Real-world Recognition by B5G
+                    </Paragraph>
+                </DescriptionX>
+
+                <DescriptionX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>certification</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
+                    <Paragraph>
+                        2019: <b>Qualification of Computer and Software Professional</b> (China) - Software Designer	// == Applied Information Technology Engineer (Japan)
+                    </Paragraph>
+                    <Paragraph>
+                        2019: <b>JLPT</b> - N2
+                    </Paragraph>
+                    <Paragraph>
                         2021: <b>TOEIC</b> L&R - 935 / 990
                     </Paragraph>
                 </DescriptionX>
-		
 
-			
+
+
             </Row>
 
             <Footer>
-		
-		<FooterParagraph icon={IoLink}>
+
+                <FooterParagraph icon={IoLink}>
                     <a className="footer-link" href="https://www.anarg.jp/?lang=en">
                         Murata Lab
                     </a>
                     <span className="footer-external-link-icon">
                         <FaExternalLinkAlt />
                     </span>
-		    &nbsp;&nbsp;
-		    <a className="footer-link" href="https://www.ist.osaka-u.ac.jp/english/">
+                    &nbsp;&nbsp;
+                    <a className="footer-link" href="https://www.ist.osaka-u.ac.jp/english/">
                         Graduate School of Information Science and Technology
                     </a>
                     <span className="footer-external-link-icon">
                         <FaExternalLinkAlt />
                     </span>
                 </FooterParagraph>
-		
+
                 <FooterParagraph icon={IoGitBranch}>
                     <a className="footer-link" href="https://github.com/amphineko/reactiveneko">
                         Fork this template on GitHub: amphineko/reactiveneko

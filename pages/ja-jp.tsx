@@ -49,28 +49,28 @@ const IndexPage: NextPage = () => {
     return (
         <div className="container">
 
-	    <FooterParagraph icon={IoLanguage}>
-                    <a className="footer-link" href="/">
-                        English
-                    </a>
-                    <span className="footer-external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                    &nbsp;&nbsp;
-                    <a className="footer-link" href="zh-hans">
-                        中文
-                    </a>
-                    <span className="footer-external-link-icon">
-                        <FaExternalLinkAlt />
-                    </span>
-                </FooterParagraph>
+            <FooterParagraph icon={IoLanguage}>
+                <a className="footer-link" href="/">
+                    English
+                </a>
+                <span className="footer-external-link-icon">
+                    <FaExternalLinkAlt />
+                </span>
+                &nbsp;&nbsp;
+                <a className="footer-link" href="zh-hans">
+                    中文
+                </a>
+                <span className="footer-external-link-icon">
+                    <FaExternalLinkAlt />
+                </span>
+            </FooterParagraph>
 
             <Header
                 profilePicture={ProfilePicture}
                 profileName={
                     <>
                         {/* amphi[ne]ko */}
-                        
+
                         <ProfileNameStandout
                             backgroundColor="hsla(0, 100%, 82%, 0.25)"
                             href="https://en.wikipedia.org/wiki/Germanium"
@@ -90,7 +90,7 @@ const IndexPage: NextPage = () => {
                         <MonolineGroup>
                             <Monoline comment="kanji">耿 瑞</Monoline>
                             <Monoline comment="kana">コウ ズイ</Monoline>
-			    <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
+                            <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
@@ -104,9 +104,9 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>belonging</ProfileAddonGroupTitle>
                         <MonolineGroup>
-				<Monoline comment="">大阪大学 大学院情報科学研究科 情報ネットワーク学専攻</Monoline>
-				<Monoline comment="Murata Lab">先進ネットワークアーキテクチャ講座</Monoline>
-				
+                            <Monoline comment="">大阪大学 大学院情報科学研究科 情報ネットワーク学専攻</Monoline>
+                            <Monoline comment="Murata Lab">先進ネットワークアーキテクチャ講座</Monoline>
+
                         </MonolineGroup>
                     </ProfileAddonGroup>
                 </ProfileAddons>
@@ -124,7 +124,7 @@ const IndexPage: NextPage = () => {
                     </AccountShowcase.Account>
                 </AccountShowcase.Category>
 
-		<AccountShowcase.Category title="email">
+                <AccountShowcase.Category title="email">
                     <AccountShowcase.Account
                         href="#"
                         icon={<FaMailBulk />}
@@ -134,7 +134,7 @@ const IndexPage: NextPage = () => {
                         r-geng(at)ist.osaka-u.ac.jp
                     </AccountShowcase.Account>
 
-		    <AccountShowcase.Account
+                    <AccountShowcase.Account
                         href="#"
                         icon={<FaMailBulk />}
                         iconBackground="#000000"
@@ -178,22 +178,25 @@ const IndexPage: NextPage = () => {
 
             <Row>
                 <DescriptionX>
-		    <ProfileAddonGroupX> 
-			<ProfileAddonGroupTitle>略歴</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>略歴</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
+                    <Paragraph>
+                        1998.05: 生まれ
+                    </Paragraph>
                     <Paragraph>
                         2016.06: 広西師範大学付属外国語学校 卒業	// 高校
                     </Paragraph>
                     <Paragraph>
                         2016.09: 北京信息科技大学 計算機学院 入学 // 学部
                     </Paragraph>
-		    <Paragraph>
+                    <Paragraph>
                         2020.06: 北京信息科技大学 計算機学院 卒業 // 学士号取得
                     </Paragraph>
-		    <Paragraph>
+                    <Paragraph>
                         2023.04: 大阪大学 大学院情報科学研究科 情報ネットワーク学専攻 入学	// 博士前期課程
                     </Paragraph>
-                </DescriptionX> 
+                </DescriptionX>
                 <DescriptionX>
                     <ProfileAddonGroupX>
                         <ProfileAddonGroupTitle>研究テーマ</ProfileAddonGroupTitle>
@@ -202,24 +205,24 @@ const IndexPage: NextPage = () => {
                         B5Gによる実時間実世界認識
                     </Paragraph>
                 </DescriptionX>
-		<DescriptionX>
-		    <ProfileAddonGroupX>
-                	<ProfileAddonGroupTitle>資格</ProfileAddonGroupTitle>
-		    </ProfileAddonGroupX>
+                <DescriptionX>
+                    <ProfileAddonGroupX>
+                        <ProfileAddonGroupTitle>資格</ProfileAddonGroupTitle>
+                    </ProfileAddonGroupX>
                     <Paragraph>
-			2019: コンピュータ技術及びソフトウェア専門技術資格試験 - ソフトウェア設計エンジニア	// == 応用情報技術者
-		    </Paragraph>
-		    <Paragraph>
-			2019: 日本語能力試験 - N2
-		    </Paragraph>
-		    <Paragraph>
+                        2019: コンピュータ技術及びソフトウェア専門技術資格試験 - ソフトウェア設計エンジニア	// == 応用情報技術者
+                    </Paragraph>
+                    <Paragraph>
+                        2019: 日本語能力試験 - N2
+                    </Paragraph>
+                    <Paragraph>
                         2021: TOEIC L&R - 935 / 990
                     </Paragraph>
-                </DescriptionX>			
+                </DescriptionX>
             </Row>
 
             <Footer>
-		
+
                 <FooterParagraph icon={IoLink}>
                     <a className="footer-link" href="https://www.anarg.jp/">
                         村田研究室
