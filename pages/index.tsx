@@ -78,9 +78,9 @@ const IndexPage: NextPage = () => {
                             hoverColor="hsla(0, 100%, 82%, 0.75)"
                             ruby="32"
                         >
-                            <b>Ge</b>Ge
+                            Ge
                         </ProfileNameStandout>
-                        <b>ng</b> Rui
+                        ng Rui
                     </>
                 }
             >
@@ -88,8 +88,8 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>also-known-as</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="Chinese"><b>耿</b>瑞</Monoline>
-                            <Monoline comment="Kana"><b>コウ</b> ズイ</Monoline>
+                            <Monoline comment="Chinese">耿瑞</Monoline>
+                            <Monoline comment="Kana">コウ ズイ</Monoline>
                             <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
