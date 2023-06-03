@@ -182,19 +182,19 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>略歴</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        1998.05: 生まれ
+                        1998.05: <b>中国・桂林</b> 生まれ
                     </Paragraph>
                     <Paragraph>
-                        2016.06: 広西師範大学付属外国語学校 卒業	// 高校
+                        2016.06: <b>広西師範大学付属外国語学校</b> 卒業  // 高校
                     </Paragraph>
                     <Paragraph>
-                        2016.09: 北京信息科技大学 計算機学院 入学 // 学部
+                        2016.09: <b>北京信息科技大学・計算機学院</b> 入学  // 学部
                     </Paragraph>
                     <Paragraph>
-                        2020.06: 北京信息科技大学 計算機学院 卒業 // 学士号取得
+                        2020.06: <b>北京信息科技大学・計算機学院</b> 卒業  // 学士号取得
                     </Paragraph>
                     <Paragraph>
-                        2023.04: 大阪大学 大学院情報科学研究科 情報ネットワーク学専攻 入学	// 博士前期課程
+                        2023.04: <b>大阪大学・大学院情報科学研究科・情報ネットワーク学専攻</b> 入学  // 博士前期課程
                     </Paragraph>
                 </DescriptionX>
                 <DescriptionX>
@@ -202,7 +202,7 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>研究テーマ</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        B5Gによる実時間実世界認識
+                        <b>B5Gによる実時間実世界認識</b>
                     </Paragraph>
                 </DescriptionX>
                 <DescriptionX>
@@ -210,13 +210,13 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>資格</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        2019: コンピュータ技術及びソフトウェア専門技術資格試験 - ソフトウェア設計エンジニア	// == 応用情報技術者
+                        2019: <b>コンピュータ技術及びソフトウェア専門技術資格試験</b> - ソフトウェア設計エンジニア	// == 応用情報技術者
                     </Paragraph>
                     <Paragraph>
-                        2019: 日本語能力試験 - N2
+                        2019: <b>日本語能力試験</b> - N2
                     </Paragraph>
                     <Paragraph>
-                        2021: TOEIC L&R - 935 / 990
+                        2021: <b>TOEIC L&R</b> - 935 / 990
                     </Paragraph>
                 </DescriptionX>
             </Row>

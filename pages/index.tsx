@@ -78,9 +78,9 @@ const IndexPage: NextPage = () => {
                             hoverColor="hsla(0, 100%, 82%, 0.75)"
                             ruby="32"
                         >
-                            Ge
+                            <b>Ge</b>Ge
                         </ProfileNameStandout>
-                        ng Rui
+                        <b>ng</b> Rui
                     </>
                 }
             >
@@ -88,8 +88,8 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>also-known-as</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="Chinese">耿瑞</Monoline>
-                            <Monoline comment="Kana">コウ ズイ</Monoline>
+                            <Monoline comment="Chinese"><b>耿</b>瑞</Monoline>
+                            <Monoline comment="Kana"><b>コウ</b> ズイ</Monoline>
                             <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
@@ -183,19 +183,19 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>biography</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        1998.05: Born
+                        1998.05: Born in <b>Guilin, China</b>
                     </Paragraph>
                     <Paragraph>
-                        2016.06: Graduated from the <b>Foreign Language School Attached to Guangxi Normal University</b>	// high school
+                        2016.06: Graduated from the <b>Foreign Language School Attached to Guangxi Normal University</b>  // high school
                     </Paragraph>
                     <Paragraph>
-                        2016.09: Enrolled in Computer School, <b>Beijing Information Science and Technology University</b>	// undergraduate
+                        2016.09: Enrolled in Computer School, <b>Beijing Information Science and Technology University</b>  // undergraduate
                     </Paragraph>
                     <Paragraph>
-                        2020.06: Graduated from Computer School, <b>Beijing Information Science and Technology University</b>	// B.Eng.
+                        2020.06: Graduated from Computer School, <b>Beijing Information Science and Technology University</b>  // B.Eng.
                     </Paragraph>
                     <Paragraph>
-                        2023.04: Enrolled in Graduate School of Information Science and Technology, <b>Osaka University</b>       // postgraduate
+                        2023.04: Enrolled in Graduate School of Information Science and Technology, <b>Osaka University</b>  // postgraduate
                     </Paragraph>
                 </DescriptionX>
 
@@ -204,7 +204,7 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>research-topic</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        Real-time Real-world Recognition by B5G
+                        <b>Real-time Real-world Recognition by B5G</b>
                     </Paragraph>
                 </DescriptionX>
 
@@ -213,13 +213,13 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>certification</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        2019: <b>Qualification of Computer and Software Professional</b> (China) - Software Designer	// == Applied Information Technology Engineer (Japan)
+                        2019: <b>Qualification of Computer and Software Professional</b> - Software Designer	// == Applied Information Technology Engineer (Japan)
                     </Paragraph>
                     <Paragraph>
                         2019: <b>JLPT</b> - N2
                     </Paragraph>
                     <Paragraph>
-                        2021: <b>TOEIC</b> L&R - 935 / 990
+                        2021: <b>TOEIC L&R</b> - 935 / 990
                     </Paragraph>
                 </DescriptionX>
 

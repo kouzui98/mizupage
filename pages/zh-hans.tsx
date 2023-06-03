@@ -164,22 +164,22 @@ const IndexPage: NextPage = () => {
             <Row>
                 <DescriptionX>
                     <ProfileAddonGroupX>
-                        <ProfileAddonGroupTitle>略历</ProfileAddonGroupTitle>
+                        <ProfileAddonGroupTitle>简历</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        1998.05: 出生
+                        1998.05: 出生于<b>中国桂林市</b>
                     </Paragraph>
                     <Paragraph>
-                        2016.06: 广西师范大学附属外国语学校 毕业	// 高中
+                        2016.06: 毕业于<b>广西师范大学附属外国语学校</b>  // 高中
                     </Paragraph>
                     <Paragraph>
-                        2016.09: 北京信息科技大学计算机学院 入学	// 本科
+                        2016.09: 入学<b>北京信息科技大学计算机学院</b>  // 本科
                     </Paragraph>
                     <Paragraph>
-                        2020.06: 北京信息科技大学计算机学院 毕业	// 工学学士学位
+                        2020.06: 毕业于<b>北京信息科技大学计算机学院</b>  // 工学学士学位
                     </Paragraph>
                     <Paragraph>
-                        2023.04: 大阪大学大学院信息科学研究科 入学       // 硕士研究生
+                        2023.04: 入学<b>大阪大学大学院信息科学研究科</b>大阪大学大学院信息科学研究科  // 硕士研究生
                     </Paragraph>
                 </DescriptionX>
 
@@ -188,7 +188,7 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>研究内容</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        B5G实时真实世界识别
+                        <b>B5G实时真实世界识别</b>
                     </Paragraph>
                 </DescriptionX>
 
@@ -197,13 +197,13 @@ const IndexPage: NextPage = () => {
                         <ProfileAddonGroupTitle>资格</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        2019: 全国计算机技术与软件专业技术资格考试 - 软件设计师	// == 应用信息技术者（日本）
+                        2019: <b>全国计算机技术与软件专业技术资格考试</b> - 软件设计师	// == 应用信息技术者（日本）
                     </Paragraph>
                     <Paragraph>
-                        2019: 日本语能力测试 - N2
+                        2019: <b>日本语能力测试</b> - N2
                     </Paragraph>
                     <Paragraph>
-                        2021: 托业 L&R - 935 / 990
+                        2021: <b>托业 L&R</b> - 935 / 990
                     </Paragraph>
                 </DescriptionX>
 
