@@ -1,4 +1,4 @@
-import { GetStaticProps, NextPage } from 'next'
+import { NextPage } from 'next'
 import {
     FaCookieBite,
     FaExternalLinkAlt,
@@ -26,10 +26,10 @@ import { LabelGroup, LabelItem } from '../components/display/labels'
 import { Monoline, MonolineGroup } from '../components/display/monolines'
 import { Row } from '../components/layout'
 import { Description, DescriptionX, Dimmed, Paragraph, Redacted } from '../components/typography'
-import { fetchSteamPersonaName, useSteamPersonaName } from '../lib/external/steam'
+
 import ProfilePicture from '../public/assets/images/my.webp'
 import Background from '../public/assets/images/waves-haikei.svg'
-import FavIcon from '../public/assets/images/icon.ico'
+
 
 const IndexPage: NextPage = () => {
     return (
@@ -249,6 +249,7 @@ const IndexPage: NextPage = () => {
                     gap: 2rem;
                     max-width: 64em;
                     margin: 0 auto;
+                    padding: 0 0.4rem;
                 }
 
                 .footer-link {
