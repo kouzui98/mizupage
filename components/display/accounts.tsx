@@ -70,7 +70,7 @@ const Container = ({ children }: PropsWithChildren<unknown>) => (
                 flex-direction: row;
                 flex-wrap: wrap;
                 gap: 1rem;
-                padding-left: 1rem;
+                padding: 0 2rem;
             }
         `}</style>
     </div>
