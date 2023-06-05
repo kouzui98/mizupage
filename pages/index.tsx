@@ -265,7 +265,7 @@ const IndexPage: NextPage = () => {
                     gap: 2rem;
                     max-width: 64em;
                     margin: 0 auto;
-                    padding: 0 0.4rem;
+                    padding: 0 1rem;
                 }
 
                 .footer-link {
