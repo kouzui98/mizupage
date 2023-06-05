@@ -1,4 +1,4 @@
-import { GetStaticProps, NextPage } from 'next'
+import { NextPage } from 'next'
 import {
     FaCookieBite,
     FaExternalLinkAlt,
@@ -26,39 +26,25 @@ import { LabelGroup, LabelItem } from '../components/display/labels'
 import { Monoline, MonolineGroup } from '../components/display/monolines'
 import { Row } from '../components/layout'
 import { Description, DescriptionX, Dimmed, Paragraph, Redacted } from '../components/typography'
-import { fetchSteamPersonaName, useSteamPersonaName } from '../lib/external/steam'
+
 import ProfilePicture from '../public/assets/images/my.webp'
 import Background from '../public/assets/images/waves-haikei.svg'
-{/*-------
-const DEPLOY_TARGETS = ['demo', 'prod'] as const
-type DeployTarget = (typeof DEPLOY_TARGETS)[number]
 
-type IndexPageProps = {
-    deployTarget: DeployTarget
-    steam: {
-        serverSideName: string
-        urls: string[]
-    }
-}
 
-const IndexPage: NextPage = ({ deployTarget, steam }: IndexPageProps) => {
-    const demo = deployTarget === 'demo'
-    const steamPersonaName = useSteamPersonaName(steam.urls, steam.serverSideName)
--------*/}
 const IndexPage: NextPage = () => {
     return (
         <div className="container">
 
             <FooterParagraph icon={IoLanguage}>
-                <a className="footer-link" href="/">
-                    English
+                <a className="footer-link" href="zh-hans">
+                    中文
                 </a>
                 <span className="footer-external-link-icon">
                     <FaExternalLinkAlt />
                 </span>
                 &nbsp;&nbsp;
-                <a className="footer-link" href="zh-hans">
-                    中文
+                <a className="footer-link" href="ja-jp">
+                    日本語
                 </a>
                 <span className="footer-external-link-icon">
                     <FaExternalLinkAlt />
@@ -88,8 +74,8 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>also-known-as</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="kanji">耿瑞</Monoline>
-                            <Monoline comment="kana">コウ ズイ</Monoline>
+                            <Monoline comment="Chinese">耿瑞</Monoline>
+                            <Monoline comment="Kana">コウ ズイ</Monoline>
                             <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
@@ -104,9 +90,10 @@ const IndexPage: NextPage = () => {
                     <ProfileAddonGroup>
                         <ProfileAddonGroupTitle>belonging</ProfileAddonGroupTitle>
                         <MonolineGroup>
-                            <Monoline comment="">大阪大学 大学院情報科学研究科 情報ネットワーク学専攻</Monoline>
-                            <Monoline comment="Murata Lab">先進ネットワークアーキテクチャ講座</Monoline>
-
+                            <Monoline comment="Murata Lab">Advanced Network Architecture Research Laboratory,</Monoline>
+                            <Monoline comment="">Department of Information Networking,</Monoline>
+                            <Monoline comment="">Graduate School of Information Science and Technology,</Monoline>
+                            <Monoline comment="">Osaka University</Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                 </ProfileAddons>
@@ -179,46 +166,51 @@ const IndexPage: NextPage = () => {
             <Row>
                 <DescriptionX>
                     <ProfileAddonGroupX>
-                        <ProfileAddonGroupTitle>略歴</ProfileAddonGroupTitle>
+                        <ProfileAddonGroupTitle>简历</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        1998.05: <b>中国・桂林</b> 生まれ
+                        1998.05: 出生于<b>中国桂林市</b>
                     </Paragraph>
                     <Paragraph>
-                        2016.06: <b>広西師範大学付属外国語学校</b> 卒業  // 高校
+                        2016.06: 毕业于<b>广西师范大学附属外国语学校</b>  // 高中
                     </Paragraph>
                     <Paragraph>
-                        2016.09: <b>北京信息科技大学・計算機学院</b> 入学  // 学部
+                        2016.09: 入学<b>北京信息科技大学计算机学院</b>  // 本科
                     </Paragraph>
                     <Paragraph>
-                        2020.06: <b>北京信息科技大学・計算機学院</b> 卒業  // 学士号取得
+                        2020.06: 毕业于<b>北京信息科技大学计算机学院</b>  // 工学学士学位
                     </Paragraph>
                     <Paragraph>
-                        2023.04: <b>大阪大学・大学院情報科学研究科・情報ネットワーク学専攻</b> 入学  // 博士前期課程
+                        2023.04: 入学<b>大阪大学大学院信息科学研究科</b>大阪大学大学院信息科学研究科  // 硕士研究生
                     </Paragraph>
                 </DescriptionX>
+
                 <DescriptionX>
                     <ProfileAddonGroupX>
-                        <ProfileAddonGroupTitle>研究テーマ</ProfileAddonGroupTitle>
+                        <ProfileAddonGroupTitle>研究内容</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        <b>B5Gによる実時間実世界認識</b>
+                        <b>B5G实时真实世界识别</b>
                     </Paragraph>
                 </DescriptionX>
+
                 <DescriptionX>
                     <ProfileAddonGroupX>
-                        <ProfileAddonGroupTitle>資格</ProfileAddonGroupTitle>
+                        <ProfileAddonGroupTitle>资格</ProfileAddonGroupTitle>
                     </ProfileAddonGroupX>
                     <Paragraph>
-                        2019: <b>コンピュータ技術及びソフトウェア専門技術資格試験</b> - ソフトウェア設計エンジニア	// == 応用情報技術者
+                        2019: <b>全国计算机技术与软件专业技术资格考试</b> - 软件设计师	// == 应用信息技术者（日本）
                     </Paragraph>
                     <Paragraph>
-                        2019: <b>日本語能力試験</b> - N2
+                        2019: <b>日本语能力测试</b> - N2
                     </Paragraph>
                     <Paragraph>
-                        2021: <b>TOEIC L&R</b> - 935 / 990
+                        2021: <b>托业 L&R</b> - 935 / 990
                     </Paragraph>
                 </DescriptionX>
+
+
+
             </Row>
 
             <Footer>
@@ -232,12 +224,13 @@ const IndexPage: NextPage = () => {
                     </span>
                     &nbsp;&nbsp;
                     <a className="footer-link" href="https://www.ist.osaka-u.ac.jp/">
-                        大阪大学大学院情報科学研究科
+                        大阪大学大学院信息科学研究科
                     </a>
                     <span className="footer-external-link-icon">
                         <FaExternalLinkAlt />
                     </span>
                 </FooterParagraph>
+
                 <FooterParagraph icon={IoGitBranch}>
                     <a className="footer-link" href="https://github.com/amphineko/reactiveneko">
                         Fork this template on GitHub: amphineko/reactiveneko
@@ -295,30 +288,4 @@ const IndexPage: NextPage = () => {
 }
 
 export default IndexPage
-{/*-------
-function getDeployTarget(): DeployTarget {
-    const deployTarget = process.env.NEXT_PUBLIC_DEPLOY_TARGET ?? ''
 
-    if (!DEPLOY_TARGETS.includes(deployTarget as unknown as DeployTarget)) {
-        throw new Error(`Invalid deploy target: ${deployTarget}`)
-    }
-
-    return deployTarget as DeployTarget
-}
-
-export const getStaticProps: GetStaticProps<IndexPageProps> = async () => {
-    const steamGetPlayerSummariesUrls = (process.env.NEXT_PUBLIC_STEAM_GET_PLAYER_SUMMARIES ?? '').split(',')
-
-    return {
-        props: {
-            deployTarget: getDeployTarget(),
-            steam: {
-                serverSideName: await fetchSteamPersonaName(steamGetPlayerSummariesUrls),
-                // serverSideName: '1kar0s', // NOTE: you can also use static server-side name here
-                urls: steamGetPlayerSummariesUrls,
-            },
-        },
-        revalidate: 60 * 60 * 24 * 7, // revalidates weekly
-    }
-}
--------*/}
