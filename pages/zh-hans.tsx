@@ -130,15 +130,6 @@ const IndexPage: NextPage = () => {
 
                 <AccountShowcase.Category title="social-accounts">
                     <AccountShowcase.Account
-                        href="https://telegram.me/m_mizuha"
-                        icon={<FaTelegramPlane />}
-                        iconBackground="#0088ccaa"
-                        platform="Telegram"
-                    >
-                        @m_mizuha
-                    </AccountShowcase.Account>
-
-                    <AccountShowcase.Account
                         href="https://twitter.com/m_mizuha_/"
                         icon={<FaTwitter />}
                         iconBackground="#1DA1F2"
