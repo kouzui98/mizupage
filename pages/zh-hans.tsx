@@ -76,7 +76,6 @@ const IndexPage: NextPage = () => {
                         <MonolineGroup>
                             <Monoline comment="Chinese">耿瑞</Monoline>
                             <Monoline comment="Kana">コウ ズイ</Monoline>
-                            <Monoline comment=""><Redacted hoverToShow>Mizuha</Redacted></Monoline>
                         </MonolineGroup>
                     </ProfileAddonGroup>
                     <ProfileAddonGroup>
@@ -238,7 +237,7 @@ const IndexPage: NextPage = () => {
                     </span>
                 </FooterParagraph>
                 <FooterParagraph icon={IoBulb}>
-                    Copyright © 2023 <Redacted hoverToShow>Mitsuse</Redacted> Mizu<Redacted hoverToShow>ha</Redacted>. Illustrations have their own licenses.
+                    Copyright © 2024 Mizu. Illustrations have their own licenses.
                 </FooterParagraph>
             </Footer>
 
