@@ -145,14 +145,7 @@ const IndexPage: NextPage = () => {
                 </AccountShowcase.Category>
 
                 <AccountShowcase.Category title="social-accounts">
-                    <AccountShowcase.Account
-                        href="https://twitter.com/m_mizuha_/"
-                        icon={<FaTwitter />}
-                        iconBackground="#1DA1F2"
-                        platform="Twitter"
-                    >
-                        @m_mizuha_
-                    </AccountShowcase.Account>
+
                 </AccountShowcase.Category>
 
                 <AccountShowcase.Category title="gaming">
