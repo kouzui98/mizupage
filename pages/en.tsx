@@ -71,7 +71,7 @@ const IndexPage: NextPage = () => {
                     <>
                         {/* amphi[ne]ko */}
 
-                        <ProfileNameStandout
+{/*                         <ProfileNameStandout
                             backgroundColor="hsla(0, 100%, 82%, 0.25)"
                             href="https://en.wikipedia.org/wiki/Germanium"
                             hoverRuby="Germanium"
@@ -79,8 +79,8 @@ const IndexPage: NextPage = () => {
                             ruby="32"
                         >
                             Ge
-                        </ProfileNameStandout>
-                        ng Rui
+                        </ProfileNameStandout> */}
+                        Geng Rui
                     </>
                 }
             >
